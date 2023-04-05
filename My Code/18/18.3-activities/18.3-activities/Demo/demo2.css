@@ -1,0 +1,32 @@
+body {
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+  height: 90vh;
+}
+.animation {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  /* animation: slide 7s infinite; */
+}
+
+/* The keyframe animation below will slide the box across 
+the screen on the X (first value) and Y axis (2nd value) */
+
+@keyframes slide {
+  25% {
+    transform: translate(200px , 15px);
+    width: 500px;
+  }
+  50% {
+    transform: translate(-200px, 50px);
+    width: 50px;
+  }
+  75% {
+    transform: translate(-100px, 100px);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}

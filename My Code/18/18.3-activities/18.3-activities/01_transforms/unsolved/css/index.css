@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "rotate"
+  "scale"
+  "translate"
+  ;
+}
+.rotate {
+  grid-area: rotate;
+  text-align: center;
+}
+.rotate img {
+  transform: rotate(-43deg);
+
+/* Add transform: rotate(180deg); to this selector. 
+  (This will flip the image of the dog on its head.)
+  Try other values (even negative numbers) for rotate and see what happens. 
+*/
+
+
+}
+.scale {
+  grid-area: scale;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.scaleMe {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 0 auto;
+  /* give this a property of transform: scale(2); 
+    (this will increase the size of the red square).
+      Try out scaling along the x- and y-axes using scaleX() and scaleY() or the shorthand of scale(x,y).
+  */
+
+
+}
+.translate {
+  grid-area: translate;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+}
+.moveMe {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* Give this a property of transform: translate(80%, 40%);
+      Note: You should see the blue square move from the left by the first value and the top by the second value.
+        Try out translate along the x- and y-axes using translateX() and translateY() or the shorthand of scale(x,y).
+   */
+
+
+}
+
+.gridChild {
+  background-color: lightgrey;
+  border: 1px solid lightblue;
+  margin: 15px 0px;
+}

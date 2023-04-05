@@ -1,0 +1,57 @@
+body{
+    font-family: "Open Sans", helvetica, sans-serif;
+    font-size: 22px;
+}
+
+/* Style your dropdown below! */
+
+
+/* Remove margin, padding, and list-style-type values from the unordered list. */
+/*target ul tag and add the following properties:
+    margin:0;
+    padding: 0;
+    list-style-type:none; 
+*/
+
+
+
+/*target li tag and add the following properties:
+    margin:0;
+    padding: 15px;
+    border: 1px solid black;
+*/
+
+
+
+/* Center your content and text by 
+using margin: auto; and text-align: center; respectively. */
+/*target container class and add the following properties:
+  width: 500px;
+  margin: auto;
+  text-align: center;
+*/
+
+
+
+
+/* Set the width for the image so it’s not quite so large. */
+/* target img tag and add the following properties:
+  width: 18px;
+*/
+
+
+
+/*target toggle ID and add the following properties:
+    background-color: #FF6767;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer; 
+*/
+
+
+
+/*target dropDown ID and add the following properties:
+    display: none;
+    This will hide the drop down on page load.
+*/

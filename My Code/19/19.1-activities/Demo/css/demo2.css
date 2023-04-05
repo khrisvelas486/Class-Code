@@ -1,0 +1,39 @@
+.wrapper {
+    max-width: 500px;
+  }
+  .accordian {
+    background-color: #3F3F3F;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    cursor: pointer;
+  }
+  .accordian > div {
+    padding: 20px;
+  }
+  .text {
+    width: 93%;
+  }
+  .indicator {
+    background-color: #545454;
+    width: 7%;
+    text-align:center;
+  }
+  .toggleMe {
+    background-color: lightgrey; 
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    display: none;
+  }
+  ul {
+    list-style: none;
+    padding:0;
+    margin: 0;
+  }
+  li {
+    font-size: 18px;
+    margin:0;
+    display: block;
+    padding: 20px;
+  }

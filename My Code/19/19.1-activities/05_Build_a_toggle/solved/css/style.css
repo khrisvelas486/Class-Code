@@ -1,0 +1,35 @@
+body{
+  font-size: 22px;
+  font-family: "Open Sans", helvetica, sans-serif;
+}
+ul {
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+}
+li {
+  margin:0;
+  padding: 15px;
+  border: 1px solid black;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+img {
+  width: 18px;
+}
+#toggle {
+  background-color: #FF6767;
+  padding: 15px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer; 
+}
+#dropDown {
+  display: none;
+}
+
+
+

@@ -1,0 +1,171 @@
+.bounceMe {
+  animation: bouncearrow .7s infinite;
+  /* Animation 1: Bouncing Arrow
+      Add the property 
+          animation: bounceArrow .7s infinite 
+        Also, note the name of the animation must be the same as the keyframe specified later in the file.
+        There are three things we just specified. A name of bounceArrow, a duration of .7s and infinite repetition.
+  */
+
+
+}
+.spinMe {
+  /* Animation 2: Loading Circle
+      Add the property 
+        animation: spin 2s infinite; 
+  */
+
+
+}
+
+#progressbar {
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 61px;
+  padding: 3px;
+}
+#progressbar > .orangeBar {
+  background-color: red;
+  width: 40%;
+  height: 20px;
+  border-radius: 5px;
+  /* Animation 3: Loading Bar
+      Add the properties
+        animation: loadBar 4s;
+        animation-fill-mode: forwards;
+  */
+
+
+}
+
+
+.movingBox {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  /*Animation 4: Moving Box
+      animation: movingBox 5s; 
+  */
+
+
+}
+
+/* Animation 1: Bouncing Arrow*/
+@keyframes bounceArrow {
+  from {
+    /*Add the property 
+        margin-top: 0px;
+     */
+
+
+  }
+  50% {
+    /*Add the property 
+        margin-top: 7px;
+     */
+
+
+  }
+  to {
+    /*Add the property 
+      margin-top: 0px;
+    */
+
+
+  }
+}
+
+/* Animation 2: Loading Circle */
+@keyframes spin {
+  from {
+    /*Add the property 
+        transform: rotate(180deg);
+     */
+
+
+  }
+  to {
+      /*Add the property
+        transform: rotate(-180deg);
+      */ 
+
+
+  }
+}
+
+
+/* Animation 3: Loading Bar*/
+@keyframes loadBar {
+  from {
+   /* width: 40%;*/ 
+
+
+  }
+  to {
+    /* width: 40%;*/ 
+
+
+  }
+}
+
+
+/* Animation 4: Moving Box*/
+@keyframes movingBox {
+  from {
+    /* transform: translate3d(0px, 0px, 0px);*/
+
+
+  }
+  25% {
+    /* transform: translate3d(50px, 25px, 0px);*/
+
+
+  }
+  50% {
+    /* transform: translate3d(100px, 50px, 0px); */
+
+
+  }
+  75% {
+    /* transform: translate3d(200px, 100px, 0px); */
+
+
+  }
+  to {
+    /* transform: translate3d(0px, 0px, 0px); */
+
+
+  }
+}
+
+
+/* these values are used to display the grid and items*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "arrow preload"
+  "loadingBar loadingBar"
+  "boxMove boxMove"
+  ;
+}
+.gridChild {
+  margin: 15px;
+  padding: 15px;
+  height: 200px;
+}
+.arrow {
+  grid-area: arrow;
+  text-align: center;
+}
+.preload {
+  grid-area: preload;
+  text-align: center;
+}
+.loadingBar {
+  grid-area: loadingBar;
+}
+.boxMove {
+  grid-area: boxMove;
+}
