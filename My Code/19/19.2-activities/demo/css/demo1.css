@@ -1,0 +1,8 @@
+.redBlock {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+  }

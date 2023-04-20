@@ -1,0 +1,22 @@
+Demo1:
+    add a logo => Navbar
+        <img src="images/logo4.png"> 
+    delete the search bar
+    move Menu items to right
+        add CSS
+
+Demo2-hero: 
+    .jumbotron {
+        height: calc(100vh - 25px);
+        background-image: url(../images/rockOn_dark.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+Demo3-Cards:
+    fit 3 cards in screen
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
